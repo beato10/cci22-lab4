@@ -7,7 +7,7 @@
 % com o valor da ultima iteracao
 dim = 100;
 N = 10;
-x0 = zeros(dim);
+x0 = zeros(dim,1);
 maxIteracoes = 1000;
 epsilon = 10*eps;
 

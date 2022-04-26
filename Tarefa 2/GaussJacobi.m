@@ -9,8 +9,8 @@ function [x, dr] = GaussJacobi(A, b, x0, epsilon, maxIteracoes)
            if i == j
                C(i,j) = 0;
            else
-               C(i,j) = (-1)*A(i,j) / A(i,i); 
-           end
+               C(i,j) = (-1)*A(i,j) / A(i,i);    % tem que fazer pivoteamento aqui? teria que permutar as linahs no caso
+           end                                   % iterativo resolve sistema indeterminado?
        end
        g(i) = b(i) / A(i,i);
     end
