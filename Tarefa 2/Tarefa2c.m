@@ -44,7 +44,7 @@ iteracoesJac = length(drJac);
 iteracoesSeid = length(drSeid);
 
 residuoJac = drJac(length(drJac));
-residuoSeid = drJac(length(drSeid));
+residuoSeid = drSeid(length(drSeid));
 
 
 
